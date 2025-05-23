@@ -6,6 +6,6 @@ public class scriptCaja : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Contacto");
+        Debug.Log("ME ESTAN TOCANDOOO :(");
     }
 }
