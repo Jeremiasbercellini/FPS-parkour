@@ -7,5 +7,6 @@ public class scriptCaja : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("ME ESTAN TOCANDOOO :(");
+        Destroy(collision.gameObject);
     }
 }
