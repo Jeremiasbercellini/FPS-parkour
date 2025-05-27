@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5401001057625750928}
   - component: {fileID: 5401001057625750929}
   - component: {fileID: 5401001057625750930}
+  - component: {fileID: 2431427101985523118}
   m_Layer: 0
   m_Name: cajaV2
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5401001057625750931}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.25, y: -1.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -62,6 +63,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2431427101985523118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401001057625750931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f937191745c0f5844aa9d7a8709c5884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5401001058158259333
 GameObject:
   m_ObjectHideFlags: 0
