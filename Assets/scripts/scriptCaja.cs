@@ -6,7 +6,7 @@ public class scriptCaja : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("ME ESTAN TOCANDOOO :(");
+        Debug.Log("contacto con " + collision.gameObject.name);
         Destroy(collision.gameObject);
     }
 }
