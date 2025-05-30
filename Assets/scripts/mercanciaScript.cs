@@ -8,7 +8,7 @@ public class mercanciaScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (Collision.gameObject.name == "player")
+        if (collision.gameObject.name == "player")
         {
             Destroy(gameObject);
             
