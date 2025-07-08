@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class mercanciaScript : MonoBehaviour
 {
-    public int precio = 10;
+    public int precio = -10;
     public DineroManager dineroManager;
 
     void Start()
