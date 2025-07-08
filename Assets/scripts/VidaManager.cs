@@ -7,17 +7,17 @@ public class VidaManager : MonoBehaviour
 {
     public float life;
 
-    public void UpdateLife(float damage)
+    public void UpdateLife(float point)
     {
+        Debug.Log("Updating life");
 
-
-        if (life - damage < 0)
+        if (life + point < 0)
         {
             SceneManager.LoadScene("FPS parkour");
         }
         else
         {
-            life -= damage;
+            life += point;
         }
 
     }
