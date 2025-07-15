@@ -11,7 +11,7 @@ public class VidaManager : MonoBehaviour
     {
         Debug.Log("Updating life");
 
-        if (life + point < 0)
+        if (life + point < 1)
         {
             SceneManager.LoadScene("FPS parkour");
         }
